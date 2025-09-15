@@ -203,17 +203,17 @@ nodejs 项目清单
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/1-r1ce">
-                    <img src="https://avatars.githubusercontent.com/u/117970635?v=4" width="80;" alt="1-r1ce"/>
-                    <br />
-                    <sub><b>Yime</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/CG-Jue">
                     <img src="https://avatars.githubusercontent.com/u/131164348?v=4" width="80;" alt="CG-Jue"/>
                     <br />
                     <sub><b>CGjue</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/1-r1ce">
+                    <img src="https://avatars.githubusercontent.com/u/117970635?v=4" width="80;" alt="1-r1ce"/>
+                    <br />
+                    <sub><b>Yime</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -246,8 +246,6 @@ nodejs 项目清单
                     <sub><b>f1ngy3</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Yhuanhuan01">
                     <img src="https://avatars.githubusercontent.com/u/118103563?v=4" width="80;" alt="Yhuanhuan01"/>
