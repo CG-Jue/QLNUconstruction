@@ -52,6 +52,23 @@
 
 ---
 
+如需增加`friends`页的成员
+
+请在`src/assets/friends.json`
+
+按照以下格式新增
+```
+{
+    "name": "", //名称
+    "description": "", //描述
+    "avatar": "", //要求https图片链接
+    "link" : "" //网站链接
+}
+```
+
+
+---
+
 > 本项目使用了**ViewTransition**特性，所以请使用Astro ^4.12.2
 >
 > 使用nodejs v20
@@ -62,12 +79,15 @@
 ```
 .
 ├── public
+│   ├── scripts
+│   │   └── menu.js
 │   ├── favicon.svg
 │   ├── icon.png
 │   ├── QLNU.png
 │   └── wx.svg
 ├── src
 │   ├── assets
+│   │   ├── friends.json
 │   │   └── memberList.json
 │   ├── pages
 │   │   ├── components
@@ -77,9 +97,11 @@
 │   │   ├── layouts
 │   │   │   ├── BaseLayout.astro
 │   │   │   └── BaseMarkdownLayout.astro
-│   │   ├── award.md
 │   │   ├── index.md
+│   │   ├── award.md
+│   │   ├── friends.astro
 │   │   └── member.astro
+│   │   
 │   ├── styles
 │   │   └── global.css
 │   └── env.d.ts
@@ -111,6 +133,11 @@
 
 结构请参考 [维护提示](#维护提示)
 
+`friends.json` 为 friends.astro所引用的友链列表JSON
+
+结构请参考 [维护提示](#维护提示)
+
+
 ### pages
 
 `Astro`将渲染在本文件夹下的文件为页面
@@ -136,6 +163,10 @@ BaseMarkdownLayout为`index.md`和`award.md`的渲染模板
 ### styles
 
 本文件夹下存放的`global.css`暂未实装
+
+### scripts
+
+本文件夹下存放的`menu.js`为`Navbar`组件的脚本
 
 ## 根目录
 
@@ -172,6 +203,13 @@ nodejs 项目清单
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/1-r1ce">
+                    <img src="https://avatars.githubusercontent.com/u/117970635?v=4" width="80;" alt="1-r1ce"/>
+                    <br />
+                    <sub><b>Yime</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/CG-Jue">
                     <img src="https://avatars.githubusercontent.com/u/131164348?v=4" width="80;" alt="CG-Jue"/>
                     <br />
@@ -199,6 +237,8 @@ nodejs 项目清单
                     <sub><b>Q1ngchuan</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/f1ngy3">
                     <img src="https://avatars.githubusercontent.com/u/126939293?v=4" width="80;" alt="f1ngy3"/>
